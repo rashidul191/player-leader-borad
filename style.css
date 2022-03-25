@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    background-color: #562eff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 20px;
+}
+
+li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+}

@@ -95,3 +95,48 @@ hr {
 .blog-info span{
     color: #562eff;
 }
+
+#latest-course{
+    background-color: white;
+    margin: 0px 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+    /* padding: 60px 30px 30px 30px; */
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.top-course h1{
+    color: #562eff;
+
+}
+
+.box-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.col-course img{
+    width: 224px;
+    height: 104;
+}
+
+.duration-icon-info{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.start-icons span{
+    color: orange;
+}
+
+.duration{
+    background-color: #ffe4e8;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #ff4a60;
+}
